@@ -4,8 +4,15 @@ URxvt.matcher.button: 1
 URxvt.scrollstyle: plain
 URxvt.scrollBar_right: true
 !URxvt.letterSpace: -1
-URxvt.font:xft:terminus:pixelsize=16
-URxvt.boldfont:xft:terminus-bold:pixelsize=16
+
+!Fedora 25 Terminus
+!URxvt.font:xft:terminus:pixelsize=16
+!URxvt.boldfont:xft:terminus-bold:pixelsize=16
+
+!Fedora 26 Terminus
+URxvt.font:xft:xos4 terminus:pixelsize=16
+URxvt.boldfont:xft:xos4 terminus-bold:pixelsize=16
+
 URxvt.visualBell: true
 URxvt.urgentOnBell: true
 URxvt.imLocale: en_US.UTF-8
