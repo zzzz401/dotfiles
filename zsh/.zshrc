@@ -33,7 +33,7 @@ export LANG=en_US.UTF-8
 
 export GOPATH=/home/aidan/Documents/
 
-alias svn add='svn add --force files'
+alias svnpush='svn add --force . && svn commit'
 alias ls='ls -al --color=auto'
 alias dev.local="sudo mount -t cifs //192.168.152.112/server /mnt/dev.local/ -o credentials=/home/aidan/.dev.local.auth,uid=1000,iocharset=utf8"
 alias buildVMKernel="sudo vmware-modconfig --console --install-all"
