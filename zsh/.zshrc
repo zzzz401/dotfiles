@@ -31,7 +31,7 @@ export EDITOR='kak'
 # You may need to manually set your language environment
 export LANG=en_US.UTF-8
 
-export GOPATH=/home/aidan/Documents/
+export GOPATH=/home/aidan/Documents/go
 
 alias svnpush='svn add --force . && svn commit'
 alias ls='ls -alh --color=auto'
