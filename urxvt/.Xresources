@@ -6,12 +6,12 @@ URxvt.scrollBar_right: true
 !URxvt.letterSpace: -1
 
 !Fedora 25 Terminus
-!URxvt.font:xft:terminus:pixelsize=16
-!URxvt.boldfont:xft:terminus-bold:pixelsize=16
+URxvt.font:xft:terminus:pixelsize=16
+URxvt.boldfont:xft:terminus-bold:pixelsize=16
 
 !Arch Terminus
-URxvt.font:xft:xos4 terminus:pixelsize=18
-URxvt.boldfont:xft:xos4 terminus-bold:pixelsize=18
+!URxvt.font:xft:xos4 terminus:pixelsize=18
+!URxvt.boldfont:xft:xos4 terminus-bold:pixelsize=18
 
 URxvt.visualBell: true
 URxvt.urgentOnBell: true
